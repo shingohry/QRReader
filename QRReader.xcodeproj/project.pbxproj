@@ -12,6 +12,7 @@
 		45D6722E20EF508200794A87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45D6722C20EF508200794A87 /* Main.storyboard */; };
 		45D6723020EF508300794A87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45D6722F20EF508300794A87 /* Assets.xcassets */; };
 		45D6723320EF508300794A87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45D6723120EF508300794A87 /* LaunchScreen.storyboard */; };
+		45D6723B20EF526000794A87 /* ScanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D6723A20EF526000794A87 /* ScanViewController.swift */; };
 		4D06EABFE16762E5438BE30F /* Pods_QRReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39A0E5B6DE53408F0624B235 /* Pods_QRReader.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		45D6722F20EF508300794A87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45D6723220EF508300794A87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45D6723420EF508300794A87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45D6723A20EF526000794A87 /* ScanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewController.swift; sourceTree = "<group>"; };
 		681878ADF3AF22481B9515D4 /* Pods-QRReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-QRReader/Pods-QRReader.release.xcconfig"; sourceTree = "<group>"; };
 		7B24A8FE3662CC209F3C130D /* Pods-QRReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRReader.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QRReader/Pods-QRReader.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +65,7 @@
 			children = (
 				45D6722820EF508200794A87 /* AppDelegate.swift */,
 				45D6722A20EF508200794A87 /* ViewController.swift */,
+				45D6723A20EF526000794A87 /* ScanViewController.swift */,
 				45D6722C20EF508200794A87 /* Main.storyboard */,
 				45D6722F20EF508300794A87 /* Assets.xcassets */,
 				45D6723120EF508300794A87 /* LaunchScreen.storyboard */,
@@ -202,6 +205,7 @@
 			files = (
 				45D6722B20EF508200794A87 /* ViewController.swift in Sources */,
 				45D6722920EF508200794A87 /* AppDelegate.swift in Sources */,
+				45D6723B20EF526000794A87 /* ScanViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +353,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R6USV66H63;
 				INFOPLIST_FILE = QRReader/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.shingohry.QRReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -365,7 +372,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R6USV66H63;
 				INFOPLIST_FILE = QRReader/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.shingohry.QRReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
