@@ -1,0 +1,18 @@
+PODS:
+  - ZXingObjC (3.2.2):
+    - ZXingObjC/All (= 3.2.2)
+  - ZXingObjC/All (3.2.2)
+
+DEPENDENCIES:
+  - ZXingObjC (~> 3.2.2)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - ZXingObjC
+
+SPEC CHECKSUMS:
+  ZXingObjC: 2c95a0dc52daac69b23ec78fad8fa2fec05f8981
+
+PODFILE CHECKSUM: 3adb794df01b40fa3e4de62c3db6733cc268facc
+
+COCOAPODS: 1.5.0
